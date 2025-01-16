@@ -5,55 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gisborne Alarms | Home and Business Security</title>
 		<link rel="icon" href="./favicon.svg" sizes="32x32">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script async src="https://unpkg.com/lucide@latest"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: { extend: { colors: { primary: '#0d6efd' } } },
-        }
-    </script>
-    <style>
-				html {
-					scroll-behavior: smooth;
-				}
-
-        body {
-            color: #333;
-            background-color: #f5f5f5;
-        }
-
-        h1, h2, h3, h4, h5, h6 { color: #0d6efd; }
-
-				.montserrat {
-					font-family: "Montserrat", serif;
-					font-optical-sizing: auto;
-					font-weight: 900;
-					font-style: normal;
-				}
-
-				@media(width <= 1280px) {
-					img.hero-image {
-						-webkit-mask-image: linear-gradient(to right, transparent, black 50%);
-						mask-image: linear-gradient(to right, transparent, black 50%);
-					}
-				}
-
-				.scroll-fade-in {
-					opacity: 0;
-					transform: translateY(20px); /* Starts 20 pixels down */
-					transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-				}
-
-				.scroll-fade-in.visible {
-					opacity: 1;
-					transform: translateY(0);
-				}
-    </style>
+		<link href="./output.css" rel="stylesheet">
 </head>
 
 <body class="min-h-screen bg-gray-50">
